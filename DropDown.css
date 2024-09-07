@@ -1,0 +1,17 @@
+
+select{
+    color:rgb(255, 217, 1);
+    background:black;
+    text-align: center;
+    font-size: 19px;
+    font-weight: 400;
+    width: 160px;
+    height: 50px;
+    color:rgb(255, 217, 1);
+    border-radius: 12px;
+}
+
+option{
+    color:rgb(255, 217, 1);
+    margin-top: 80px;
+}

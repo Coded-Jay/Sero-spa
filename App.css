@@ -1,0 +1,411 @@
+
+html{
+  scroll-behavior: smooth;
+}
+.Container{
+  display: flex;
+  flex-direction: row;
+}
+
+@media (max-width: 768px) {
+  body{
+    font-size: 16px;
+  }
+.Container {
+      grid-template-rows: 100px 100px 100px 2fr
+      50px 50px 50px;
+      grid-template-columns: 1fr;
+      grid-template-areas: none
+      "header"
+      "banner"
+      "left-aside"
+      "main"
+      "right-aside"
+      "low-content"
+      "footer";
+    }
+    
+  .bot{
+    width: 16px;
+    font-size: 14px;
+  }
+  header{
+    display: flexbox;
+    width: 100%;
+    font-size: 8px;
+    color: black;
+  }
+
+  .nav-contents{
+    font-size: 8px;
+    display: flexbox;
+    margin-left: 20%;
+  }
+
+  .drop{
+   position: absolute;
+   margin-left: 0px;
+   display: inline-block;
+   position: absolute;
+  }
+  Form{
+    width: 60px;
+    font-size: 14px;
+  }
+  .txt{
+    width: 600px;
+    font-size: 14px;
+  } 
+  .banner {
+    height: 40vh;
+    width: 50%;
+    display: flex;
+}
+.banner h1 {
+    font-size: 2rem;
+}
+.banner p{
+    font-size: 1rem;
+}
+}
+
+@media (max-width: 992px) {
+  body{
+    font-size: 18px;
+  } 
+}
+
+
+.img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+.Aapp {
+  text-align: center;
+}
+body{
+  background:url("C:\Users\AFRPNIGERIA\Desktop\Download\My DESIGNS\bg.png");
+  background-size:cover;
+  background-repeat: round;
+  font-size: 14px;
+}
+
+.drop, .search{
+  display: inline-block;
+}
+.carous{
+  width: 600px;
+  height: 600px;
+}
+
+
+
+
+.mail{
+text-align: center;
+font-size: 8px;
+}
+
+.colis{
+  color:orangered;
+  display: inline-block;
+}
+.dado{
+  color:rgb(255, 217, 1);
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: center;
+ border-radius: 16px;
+}
+.creative{
+  color:rgb(255, 217, 1);
+  width: 1150px;
+  height: 660px;
+  font-size: 36px;
+  display: inline-block;
+  text-align: justify;
+}
+
+.online{
+  color:rgb(255, 217, 1);
+  width: 1100px;
+  height: 660px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: justify;
+  margin-top: 12px;
+  position: none;
+}
+
+
+
+.bot{
+display: flex;
+color: black;
+width: 100%;
+padding: 10%;
+border: 3px solid black;
+border-radius: 6px;
+box-shadow: -8px 6px 6px black;
+}
+
+.fill1{
+  width: 1360px;
+  height: 30px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+  border-radius: 8px;
+}
+
+.drop{
+  color:rgb(218, 173, 76);
+  background-color: no color;
+ font: 34px;
+ margin-left: 1290px;
+ margin-top: -60px;
+ position: absolute;
+  display:inline-block;
+  width: 16px;
+  height: 12px;
+}
+
+.drop:hover{
+  background-color:rgb(0, 90, 105);
+}
+
+.para, .para1{
+  background: black;
+  color: rgb(250, 247, 232);
+  text-align: center;
+  font-size: 30px;
+  width:1460px;
+  display:block;
+  padding: 6px;
+  border-radius: 16px;
+}
+
+.para2 {
+  background: black;
+  color: rgb(255, 242, 170);
+  text-align: center;
+  font-size: 30px;
+  width:1460px;
+  display:block;
+  padding: 6px;
+  border-radius: 16px;
+}
+
+a{
+  color: rgb(255, 242, 170);
+  margin-left:10px;
+  text-decoration: none;
+  display: inline-block;
+  
+}
+a:hover{
+  color:rgb(243, 243, 243);
+}
+
+button{
+  color:rgb(255, 255, 255);
+  background-color:rgb(218, 173, 76);
+  font-size: 12px;
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20%;
+  box-shadow: -2px 2px rgb(0, 0, 0);
+}
+
+button:hover{
+  color:rgb(216, 158, 0);
+  background-color: #000000;
+  border: 3px solid rgb(216, 158, 0);
+  box-shadow: -2px 2px rgb(160, 132, 40);
+  font-weight: 900px;
+  font-size: 14px;
+}
+button::backdrop{
+  color:aliceblue;
+}
+
+header{
+  background-color:rgb(0, 0, 0);
+  background-repeat: round;
+  display: flex;
+  position: absolute;
+  width: 77%;
+  color:rgb(218, 173, 76);
+  border: 6px solid rgb(218, 173, 76);
+
+}
+
+h1{
+  display: inline-block;
+  color:rgb(255, 255, 255);
+  margin-left: 0px;
+}
+
+h4{
+  display:block;
+  color:rgb(255, 217, 1);
+  text-align: center;
+  font-size: 30px;
+  position: relative;
+  margin-top: opx;
+}
+
+h2{
+  color:rgb(187, 128, 0);
+  font-size:600px;
+  display: block;
+  text-align:center;
+  margin-bottom: 160px;
+  margin-top: 0px;
+  padding: 0px;
+   height: 30px;
+  text-shadow: -2px 4px 2px   rgb(201, 130, 0);
+}
+h3{
+  color:rgb(255, 255, 255);
+  background-color:rgb(218, 173, 76);
+  text-align: center;
+  font-size: 36px;
+}
+h6{
+  color:rgb(0, 0, 0);
+  margin-bottom: 0%;
+}
+
+
+h5{
+  color:rgb(218, 173, 76);
+  font-family: 'arial';
+  position: relative;
+  text-shadow: 2px 2px 2px black;
+}
+
+  
+
+.mylogo{
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.marq{
+  background-color:rgb(218, 173, 76);
+  color: rgb(255, 255, 255);
+}
+.marq2{
+  color:rgb(196, 150, 0);
+}
+.search{
+display: flex;
+text-align: center;
+border-radius: 16px;
+}
+
+.divbox{
+  color:rgb(219, 231, 227);
+  background:rgb(218, 173, 76);
+  text-align: center;
+  width:60px;
+  height:60px;
+  border: 6px solid black;
+  border-radius: 50%;
+  display: inline-block;
+  margin-top: 12px;
+  padding: 10px;
+
+  animation-name: myDivbox;
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-delay: 0s;
+  animation-play-state: running;
+  animation-name: divbox;
+}
+
+.box{
+  color:rgb(0, 0, 0);
+  background:rgb(218, 173, 76);
+  text-align: center;
+  width:400px;
+  height:60px;
+  font-size:20px;
+  font-weight: 700;
+  border: 6px solid black;
+  border-radius: 12px;
+  border-top: #000000;
+  display: inline-block;
+  border-left: #000000;
+  margin-left: 600px;
+  padding: 10px;
+}
+.nav-contents{
+  background-size: cover;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 3px;
+  margin-top: 24px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 1100px;
+}
+
+footer{
+  color:rgb(255, 255, 255);
+  background-color: #000000;
+  width: 100%;
+}
+
+
+.chill{
+  align-items: center;
+  font-size: 18px;
+  text-align: center;
+}
+ 
+.f1, .f2, .f3, .f4{
+  color: #ffffff;
+  display:inline-block;
+  margin-left: 180px;
+  padding: 1px;
+}
+.myflyer{
+  display: inline-block;
+  width: 1460px;
+  margin-top: 0px;
+}
+
+.copy{
+  color: rgb(219, 219, 219);
+  text-align:center;
+}
+
+
+
+form{
+  display: inline-block;
+  width: 768px;
+}
+
+.fam{
+  color:rgb(112, 255, 29);
+  display: inline-block;
+  font-size: 31px;
+  height: 620px;
+  text-align: justify;
+  margin-left:  20px;
+  border-radius: 12px;
+  box-shadow: 6px 6px rgb(110, 109, 109);
+}
+
+
+

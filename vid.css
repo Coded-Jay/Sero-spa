@@ -1,0 +1,7 @@
+.cont{
+    height: 240px;
+    width: 800;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
